@@ -1,0 +1,6 @@
+<mat-toolbar color="primary">
+    <img src="/assets/images/icons/icon-72x72.png" class="small">
+    <span>Share Your Thought</span>
+</mat-toolbar>
+
+<app-thought [canShare]="canShare" (onShare)="share($event)"></app-thought>
